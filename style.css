@@ -1,0 +1,223 @@
+ /* Define a custom font-face and specify the URL of the font file */
+ @font-face {
+     font-family: myFirstFont;
+     src: url(ZEBRAZIL\ _\ Zarni.ttf);
+ }
+
+ /* Apply the myFirstFont font and set it to bold for all h1 elements*/
+ h1 {
+     font-weight: bold;
+     font-family: myFirstFont;
+ }
+
+ /* Apply some styling to all div elements */
+ div {
+     text-align: center;
+     padding: 10px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 100%;
+ }
+
+ /* Apply specific styling to the element with class "one" */
+ .one {
+     background-color: #00bd18;
+     float: left;
+     padding: 0;
+     height: 22rem;
+ }
+
+ /* Apply specific styling to the element with class "two" */
+ .two {
+     float: left;
+     padding: 0;
+ }
+
+ /* Apply specific styling to the element with class "three" */
+ .three {
+     float: left;
+     padding: 0;
+ }
+
+ /* Apply specific styling to the element with class "four" */
+ .four {
+     float: left;
+     padding: 0;
+ }
+
+ /* Apply specific styling to the element with class "five" */
+ .five {
+     float: left;
+     padding: 0;
+     height: 10%;
+ }
+
+ /* Add some styling to elements with class "center" */
+ .center {
+     margin: 0 auto;
+     width: 100%;
+     border: 3px solid green;
+     padding: 10px;
+ }
+
+ /* Apply some specific styling to all h3 elements */
+ h3 {
+     top: 17rem;
+ }
+
+ /* Add some specific positioning to elements with class "bottom" */
+ .bottom {
+     position: absolute;
+     bottom: 47%;
+     left: 45%;
+ }
+
+ /* Add some specific display and positioning styles to all elements with class "container" */
+ .container {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+ }
+
+ /* Apply some specific styling to all elements with class "text" */
+ .text {
+     margin-top: 1rem;
+     text-align: center;
+ }
+
+ /* Apply some font family to the whole page body */
+ body {
+     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+ }
+
+ /* Add additional styling to elements with class "left" */
+ .left {
+     float: left;
+     width: 100%;
+ }
+
+ /* Add specific styling to all h1 elements that are children of elements with class "left" */
+ .left h1 {
+     clear: both;
+     text-align: center;
+ }
+
+ /* Add specific styling to all p elements that are children of elements with class "left" */
+ .left p {
+     text-align: justify;
+     margin: 20px;
+ }
+
+ /* Add specific display and width styles to elements with class "left" */
+ .left {
+     display: inline-block;
+     width: 50%;
+ }
+
+ /* Apply some specific styling to all h1 elements */
+ h1 {
+     font-weight: bold;
+     clear: both;
+     text-align: center;
+     padding: 0;
+ }
+
+ /* Apply some specific styling to all p elements */
+ p {
+     font-size: 18px;
+     text-align: justify;
+     margin: 20px;
+ }
+
+ /* Apply some styling to all a elements */
+ a {
+     color: #ff7857
+ }
+
+ /* Add some flower styles */
+ .flower {
+     display: block;
+     position: absolute;
+     width: 50px;
+     height: 100px;
+     left: 50%;
+     top: 20%;
+ }
+
+ /* Styles for the stem of a flower */
+ .stem {
+     position: absolute;
+     bottom: 0;
+     width: 10px;
+     height: 80px;
+     background-color: green;
+ }
+
+ /* Styles for the bud of a flower */
+ .bud {
+     position: absolute;
+     top: 0;
+     left: 20px;
+     width: 30px;
+     height: 30px;
+     border-radius: 50%;
+     background-color: pink;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ /* Styles for the petals of a flower */
+ .petal {
+     width: 20px;
+     height: 30px;
+     transform-origin: bottom center;
+     position: absolute;
+     background-color: pink;
+ }
+
+ /* Positioning and rotation styles for the petals of a flower */
+ .petal:nth-child(1) {
+     transform: rotate(0deg);
+ }
+
+ .petal:nth-child(2) {
+     transform: rotate(90deg);
+ }
+
+ .petal:nth-child(3) {
+     transform: rotate(180deg);
+ }
+
+ .petal:nth-child(4) {
+     transform: rotate(270deg);
+ }
+
+ /* Styles for the center circle of a flower */
+ .circle {
+     position: relative;
+     left: 2rem;
+     width: 15px;
+     height: 15px;
+     border-radius: 50%;
+     background-color: yellow;
+     z-index: 5;
+     top: -15%;
+     left: 3.5%;
+ }
+
+ /* Styles for the left column */
+ .left-column {
+     height: 33rem;
+     width: 49%;
+     float: left;
+ }
+
+ /* Styles for the right column */
+ .right-column {
+     height: 33rem;
+     width: 49%;
+     float: right;
+ }
